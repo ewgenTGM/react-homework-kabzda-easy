@@ -1,0 +1,11 @@
+body, html {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.app_title {
+    text-align: center;
+}
+
+.app {
+    margin: 15px auto;
+}

@@ -1,0 +1,43 @@
+.onOff {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0 0 3px black;
+}
+
+.indicator {
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.round_indicator{
+    cursor: auto;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.on{
+    background-color: limegreen;
+    color: white;
+    box-shadow: 0 0 10px limegreen;
+}
+
+.off{
+    background-color: indianred;
+    color: white;
+    box-shadow: 0 0 10px indianred;
+}
