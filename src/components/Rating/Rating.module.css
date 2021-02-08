@@ -1,0 +1,15 @@
+.rating {
+    font-size: 26px;
+}
+
+.rating span {
+    cursor: pointer;
+}
+
+.rating span:hover {
+    font-size: 32px;
+}
+
+.badRating {
+    color: darkred;
+}
