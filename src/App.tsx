@@ -6,6 +6,7 @@ import UncontrolledAccordion from './components/Accordion/UncontrolledAccordion'
 import Rating from './components/Rating/Rating';
 import UncontrolledRating from './components/Rating/UncontrolledRating';
 import UncontrolledOnOff from './components/OnOff/UncontrolledOnOff';
+import TrainingMaterialUi from './TrainingMaterialUi';
 
 type propsType = {
   title: string
@@ -23,23 +24,24 @@ function App( props: propsType ) {
         <div className={ styles.app_title }>
           { props.title }
         </div>
-        <OnOff
-            on={ on }
-            setOn={ setOn }/>
-        <UncontrolledOnOff/>
-        <Accordion
-            name={ 'Information' }
-            items={ information }
-            collapsed={ collapsed }
-            setCollapsed={ setCollapsed }/>
-        <UncontrolledAccordion
-            name={ 'Props' }
-            items={ information }/>
-        <Rating
-            maxRating={ 8 }
-            rating={ rating }
-            setRating={ setRating }/>
-        <UncontrolledRating/>
+        <TrainingMaterialUi/>
+        {/*<OnOff*/}
+        {/*    on={ on }*/}
+        {/*    setOn={ setOn }/>*/}
+        {/*<UncontrolledOnOff/>*/}
+        {/*<Accordion*/}
+        {/*    name={ 'Information' }*/}
+        {/*    items={ information }*/}
+        {/*    collapsed={ collapsed }*/}
+        {/*    setCollapsed={ setCollapsed }/>*/}
+        {/*<UncontrolledAccordion*/}
+        {/*    name={ 'Props' }*/}
+        {/*    items={ information }/>*/}
+        {/*<Rating*/}
+        {/*    maxRating={ 8 }*/}
+        {/*    rating={ rating }*/}
+        {/*    setRating={ setRating }/>*/}
+        {/*<UncontrolledRating/>*/}
       </div>
   );
 }
